@@ -1,0 +1,69 @@
+# .NET Core
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+*.sln.ide
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]/*/bin/
+[Aa][Rr][Mm]/*/obj/
+publish/
+artifacts/
+*.nupkg
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml~
+.dockerignore
+Dockerfile*
+**/Dockerfile*
+.docker
+**/.docker/
+
+# Visual Studio Code
+.vscode/
+.settings/
+*.code-workspace
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# DotNet specific
+*.db
+*.db-shm
+*.db-wal
+*.pdb
+*.mdb
+
+# Environment Variables
+.env
+*.env.local
+
+# Ignore logs
+*.log
+
+# Azure Functions
+.local.settings.json
+
+# Others
+*.cache
+*.lock.json
