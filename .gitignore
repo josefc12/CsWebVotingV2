@@ -31,9 +31,6 @@ artifacts/
 # Docker
 docker-compose.override.yml
 docker-compose.override.yml~
-.dockerignore
-Dockerfile*
-**/Dockerfile*
 .docker
 **/.docker/
 

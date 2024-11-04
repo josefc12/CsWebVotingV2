@@ -1,0 +1,9 @@
+bin/
+obj/
+*.sln
+*.user
+*.db
+*.log
+*.tmp
+*.vs/
+.vscode/
